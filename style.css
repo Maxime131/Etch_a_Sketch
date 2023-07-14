@@ -1,0 +1,85 @@
+body {
+    min-height: 100vh;
+    background-color: #f3f3f1;   
+     
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'robotto';
+  }
+  
+  
+  .grid{
+    display: grid;
+    max-width: 300px;
+    min-width: 300px;
+    
+    max-height: 300px;
+    min-height: 300px;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+  }
+  
+  .box{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    border: 1px solid #050505;  
+    border-radius: 4px;  
+   
+    opacity: 0.5;  
+    background-color: transparent;
+    
+    transition:color .5s;
+    cursor: pointer; 
+  
+  }
+  
+  
+
+  .container{
+    color: dimgray
+  }
+  
+  
+  #Sketch{
+    color: dimgray; 
+    text-decoration: none;
+  }
+      #Sketch:active,
+      #Sketch:hover{
+        color: black;    
+        text-decoration: none;
+        filter: drop-shadow(4px 4px 20px #40e0d0);  
+        
+        transition: all .5s;
+        transition-timing-function: ease-in-out;
+      }
+  
+  
+
+  button {
+    border-radius: 10px;
+    background-color: transparent; 
+    color: dimgray; 
+    
+    width: 100px;
+    height: 50px;
+  } 
+  
+  button:hover {
+      transition: all .5s;
+      transition-timing-function: ease-in-out; 
+    
+      color: white;
+      background-color: black; 
+      opacity: 50%; 
+    
+      filter: drop-shadow(4px 4px 20px #40e0d0);  
+    }
